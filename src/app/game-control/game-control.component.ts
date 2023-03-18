@@ -17,4 +17,7 @@ export class GameControlComponent {
     }, 1000);
   }
 
+  onPauseGame() {
+    clearInterval(this.interval);
+  }
 }
